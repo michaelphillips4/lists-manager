@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-listsmanager-dev-225241-authRole",
+      "UnauthRoleArn": "arn:aws:iam::141016969021:role/amplify-listsmanager-dev-225241-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::141016969021:role/amplify-listsmanager-dev-225241-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-listsmanager-dev-225241-deployment",
+      "UnauthRoleName": "amplify-listsmanager-dev-225241-unauthRole",
+      "StackName": "amplify-listsmanager-dev-225241",
+      "StackId": "arn:aws:cloudformation:eu-west-2:141016969021:stack/amplify-listsmanager-dev-225241/52525bf0-9ec1-11ee-87c2-0267d1d1c414",
+      "AmplifyAppId": "d1sun3pt8px1fk"
+    },
+    "categories": {
+      "auth": {
+        "listsmanager3a5b79cb": {}
+      }
+    }
+  }
+}
