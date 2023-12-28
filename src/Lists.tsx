@@ -21,7 +21,7 @@ export default function Lists() {
     }
   };
 
-  useEffect(() => {
+/*   useEffect(() => {
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
@@ -29,18 +29,18 @@ export default function Lists() {
         setLists(json);
       })
       .catch((error) => console.error("fetch error", error));
-  }, []);
+  }, []); */
 
   function Save() {
     const body = JSON.stringify(lists)
     console.log(body);
     // Send data to the backend via POST
-    fetch(url, { 
+   /*  fetch(url, { 
       method: 'PUT', 
       body: body // body data type must match "Content-Type" header
 
     }).then((r) => console.log(r))
-    .catch((error) => console.error("fetch PUT error", error));
+    .catch((error) => console.error("fetch PUT error", error)); */
     
   }
 
