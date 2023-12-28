@@ -1,9 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useState} from "react";
 import { IoIosSave } from "react-icons/io";
 import { MdAdd } from "react-icons/md";
 import { List, ListItem } from "./definitions";
 import { ListView } from "./List";
-const url = "https://4f1nvpq0d8.execute-api.eu-west-2.amazonaws.com/items";
+//const url = "https://4f1nvpq0d8.execute-api.eu-west-2.amazonaws.com/items";
 export default function Lists() {
   let defaultValue: List[] = [];
   const [listName, setListName] = useState("");
