@@ -1,8 +1,22 @@
+body{
+
+    margin-left: 5vw;
+    margin-right:5vw;
+ text-align: center;
+}
+
+.notice{
+    text-align: left;
+    border: 1px solid silver;
+    background-color: rgb(246, 246, 246);
+    border-radius: 3px;
+  
+    padding: 1vw;
+    padding-top: 0.3vw;
+    margin-bottom: 30px;
+}
 
 
-.list-item-text
-{
-
-    padding-left: 20px;
-
+.float-right{
+    float:right;
 }
